@@ -4,7 +4,7 @@
   "Version": "1.0.0",
   "Description": "Bahasa Indonesia untuk mod Stardew Access",
   "UniqueID": "faiz.fluent.stardewaccess.id",
-  "UpdateKeys": [ "Nexus:24788" ],
+  "UpdateKeys": [ "Nexus:24788", "GitHub:fz0308/Stardew-Access-Bahasa-Indonesia" ],
   "ContentPackFor": {
     "UniqueID": "Shockah.ProjectFluent"
   },
