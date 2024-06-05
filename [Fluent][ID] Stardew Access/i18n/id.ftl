@@ -2,7 +2,7 @@
 
 ## Object Tracker
 
-feature-object_tracker-sort_by_proximity = Urutkan berdasarkan Kedekatan: {$is_enabled ->
+feature-object_tracker-sort_by_proximity = Urutkan berdasarkan jarak: {$is_enabled ->
     [0] dinonaktifkan
     *[1] diaktifkan
   }
