@@ -375,14 +375,14 @@ terrain_util-forage_crop_types = {$type ->
     [2] Jahe
     *[other] Tanaman yang bisa dimakan
   }
-terrain_util-fruit_tree_growth_stage = Pohon {$stage ->
+terrain_util-fruit_tree_growth_stage = {$stage ->
     [0] Biji
     [1] Kecambah
     [2] kecil
     [3] Semak
     *[other] Pohon
   }
-terrain_util-tree_type = Pohon {$type ->
+terrain_util-tree_type = {$type ->
     [1] ek
     [2] Mapel
     [3] Pinus
@@ -408,7 +408,7 @@ terrain_util-tree_growth_stage = {$stage ->
     [4] Semak
     *[other] Pohon
   }
-terrain_util-bush_type = Semak {$type ->
+terrain_util-bush_type = {$type ->
     [0] Kecil
     [1] Sedang
     [2] Besar
