@@ -18,7 +18,7 @@ commands-read_tile-flooring_toggle = Bicara lantai {$is_enabled ->
 commands-tile_marking-build_list-building_info = Indeks {$index}: {$name} di {$x_position}x dan {$y_position}y
 commands-tile_marking-build_list-buildings_list = Bangunan yang ada:
   {$building_infos}
-Buka menu perintah dan gunakan pageup dan pagedown untuk memeriksa daftar
+  Buka menu perintah dan gunakan pageup dan pagedown untuk memeriksa daftar
 commands-tile_marking-build_list-no_building = Tidak ada bangunan yang sesuai untuk dicantumkan
 
 commands-tile_marking-mark-location_marked = Lokasi {$x_position}x {$y_position}y ditambahkan ke indeks {$index}.
@@ -29,7 +29,7 @@ commands-tile_marking-mark-wrong_index = Indeks hanya boleh berupa angka  dari 0
 commands-tile_marking-mark_list-mark_info = Indeks {$index}: {$x_position}x dan {$y_position}y
 commands-tile_marking-mark_list-marks_list = Posisi yang ditandai:
   {$mark_infos}
-Buka menu perintah dan gunakan pageup dan pagedown untuk memeriksa daftar
+  Buka menu perintah dan gunakan pageup dan pagedown untuk memeriksa daftar
 commands-tile_marking-mark_list-not_marked = Tidak ada posisi yang ditandai!
 
 commands-tile_marking-build_sel-cannot_select = Tidak bisa memilih bangunan.
