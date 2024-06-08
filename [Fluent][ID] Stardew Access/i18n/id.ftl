@@ -236,8 +236,8 @@ dynamic_tile-farm-grandpa_shrine = Makam kakek{SIGNOFNUMBER($candles) ->
     *[other] {EMPTYSTRING()}
   }
 tile-bundles-suffix = Bundel {$content}
-tile-harvestable-prefix = {$content} siap
-tile-busy-prefix = {$content} sibuk
+tile-harvestable-prefix = Siap {$content}
+tile-busy-prefix = Sibuk {$content}
 tile_name-stepping_stone = Batu melangkah
 tile_name-pathway = Jalan
 tile_name-flooring = Lantai
