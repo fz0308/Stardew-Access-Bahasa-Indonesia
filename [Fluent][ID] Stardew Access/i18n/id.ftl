@@ -210,7 +210,7 @@ dynamic_tile-mastery_cave-pedestal = {$has_hat ->
 tile_name-ticket_machine = Mesin tiket
 tile_name-movie_ticket_machine = Mesin Tiket Film
 tile_name-missed_reward_chest = Peti Hadiah yang Terlewatkan
-tile_name-traveling_cart = Kereta Bepergian
+tile_name-traveling_cart = Kereta pedagang
 tile_name-traveling_cart_pig = Babi pedagang
 tile_name-feeding_bench = Kotak makanan {$is_empty ->
     [1] kosong
