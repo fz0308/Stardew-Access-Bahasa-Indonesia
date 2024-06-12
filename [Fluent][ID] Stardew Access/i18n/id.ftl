@@ -193,7 +193,7 @@ tile-building_animal_door-suffix = Pintu hewan {$name} {$is_open ->
 tile-mine_shaft-coal_bag = Kantung
 tile-mine_shaft-dirt = Tanah
 tile-mine_shaft-duggy_hole = Lubang Duggy
-tile-pet_bowl-prefix = Mangkuk hewan {$is_in_use ->
+tile-pet_bowl-prefix = {$is_in_use ->
     [0] tidak digunakan
     *[1] {$is_empty ->
       [0] {EMPTYSTRING()}
