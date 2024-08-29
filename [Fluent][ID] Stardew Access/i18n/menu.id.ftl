@@ -257,7 +257,10 @@ menu-animal_page-animal_info = {$name}, {$type}{$heart_count ->
 
 ### Forge Menu
 
-menu-forge-start_forging_button = Tombol mulai menempa
+menu-forge-start_forging_button = Tombol mulai menempa{$forge_cost ->
+    [0] {EMPTYSTRING()}
+    *[other] , costs {$forge_cost} Cinder Shard
+  }
 menu-forge-unforge_button = Tombol kembalikan
 menu-forge-weapon_input_slot = {$is_empty ->
     [0] Slot senjata: {$item_name}
@@ -349,9 +352,15 @@ menu-animal_query-animal_info =
   }, {$heart_count ->
     [1] 1 hati
     *[other] {$heart_count} hati
-  }, {$age ->
-    [1] 1 bulan
-    *[other] {$age} bulan
+  }, {$is_age_in_days ->
+    [1] {$age ->
+      [1] 1 hari
+      *[other] {$age} hari
+    }
+    *[other] {$age ->
+      [1] 1 bulan
+      *[other] {$age} bulan
+    }
   } old{$parent_name ->
     [null] {EMPTYSTRING()}
     *[other] , Induk: {$parent_name}.
