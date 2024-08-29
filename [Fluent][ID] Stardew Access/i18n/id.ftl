@@ -1,4 +1,4 @@
-# Features
+# Featuresen.
 
 ## Object Tracker
 
@@ -95,8 +95,8 @@ prefix-repair = Perbaiki {$content}
 
 suffix-building_door = Pintu {$content}
 suffix-map_entrance = Jalur masuk {$content}
-suffix-mill_input = Input {$content}
-suffix-mill_output = Output {$content}
+suffix-mill_input = Masukan {$content}
+suffix-mill_output = Keluaran {$content}
 
 # Tiles
 
@@ -204,11 +204,13 @@ dynamic_tile-mastery_cave-pedestal = {$has_hat ->
     [0] Alas Kosong
     *[1] Alas dengan Topi
   }
+dynamic_tile-farm-lumber_pile = Tumpukan Kayu
+
 
 ## Interactable Tiles
 
 tile_name-ticket_machine = Mesin tiket
-tile_name-movie_ticket_machine = Mesin Tiket Film
+tile_name-movie_ticket_machine = Mesin Tiket Bioskop
 tile_name-missed_reward_chest = Peti Hadiah yang Terlewatkan
 tile_name-traveling_cart = Kereta pedagang
 tile_name-traveling_cart_pig = Babi pedagang
@@ -217,7 +219,7 @@ tile_name-feeding_bench = Kotak makanan {$is_empty ->
     *[0] {EMPTYSTRING()}
   }
 tile_name-special_quest_board = Papan pesanan khusus
-tile-museum_piece_showcase-suffix = {$content} Showcase
+tile-museum_piece_showcase-suffix = {$content} Pameran
 tile_name-fridge = Kulkas
 tile_name-mail_box = Kotak surat
 tile_name-mail_box-unread_mail_count-prefix = {$mail_count} {$mail_count ->
@@ -244,6 +246,7 @@ tile_name-flooring = Lantai
 tile-volcano_dungeon-pressure_pad = Tombol
 tile-volcano_dungeon-gate = Gerbang
 tile-forest-giant_tree_sump = Tunggul Pohon Raksasa
+tile-town-bookseller = Penjual buku
 
 ## Entrances
 
@@ -293,7 +296,7 @@ item-dropped_item-info = Barang yang dijatuhkan: {$item_count ->
     [1] 1 {$item_name}
     *[other] {$item_count} {$item_name}
   }
-item-crafting_recipe_info = {$name} {$is_cooking_recipe ->
+]item-crafting_recipe_info = {$name} {$is_cooking_recipe ->
     [0] (kerajinan)
     *[1] (memasak)
   } {$description}
@@ -329,9 +332,21 @@ npc_name-ruby_gem_bird = Burung Permata Ruby
 npc_name-amethyst_gem_bird = Burung Permata Kecubung
 npc_name-topaz_gem_bird = Burung Permata Topaz
 npc_name-gem_bird_common = Burung Permata
-npc-farm_animal_info = {$name}, {$type}, {$age} {$age ->
-    [1] bulan
-    *[other] bulan
+npc-farm_animal_info = {$name}, {$is_hungry ->
+    [1] Lapar
+    *[other] {EMPTYSTRING()}
+  } {$is_baby ->
+    [1] Bayi
+    *[other] {EMPTYSTRING()}
+  } {$type}, {$is_age_in_days ->
+    [1] {$age ->
+      [1] 1 hari
+      *[other] {$age} hari
+    }
+    *[other] {$age ->
+      [1] 1 bulan
+      *[other] {$age} bulan
+    }
   }
 npc_name-horse_with_no_name = kuda tanpa nama
 monster_name-armored = {$monster_name} lapis baja
@@ -354,6 +369,7 @@ monster_name-truffle_crab = Kepiting Truffle
 event_tile-egg_festival_shop-name = Toko festival telur
 event_tile-flower_dance_shop-name = Toko Tari Bunga
 event_tile-soup_pot-name = Panci Sup
+event_tile-luau-pierre_booth = Stan Pierre
 event_tile-spirits_eve_shop-name = Toko Malam Roh
 event_tile-stardew_valley_fair_shop-name = Toko Pameran Stardew Valley
 event_tile-slingshot_game-name = Permainan Ketapel
@@ -474,6 +490,31 @@ direction-south_east = Tenggara
 direction-current_tile = Titik saat ini
 
 inventory_util-empty_slot = Slot kosong
+inventory_util-locked_slot = Slot Terkunci
+
+# Primarily used to distinguish items with same name, like Jungle Decals or Ceiling Leaves purchased in Luau
+inventory_util-special_items-name = {$item_id ->
+    [F_2627] Stiker Hutan (luau) 1
+    [F_2628] Stiker Hutan (luau) 2
+    [F_2629] Stiker Hutan (luau) 3
+    [F_2630] Stiker Hutan (luau) 4
+    [F_1817] Daun atap (luau) 1
+    [F_1818] Daun atap (luau) 2
+    [F_1819] Daun atap (luau) 3
+    [F_1820] Daun atap (tarian bunga) 1
+    [F_1821] Daun atap (Tarian bunga) 2
+    [BC_192] Tanaman Musiman (Tarian bunga) 1
+    [BC_204] Tanaman Musiman (Tarian bunga) 2
+    [BC_184] Tanaman Musiman (telur) 1
+    [BC_188] Tanaman Musiman (telur) 2
+    [F_1687] Stiker Awan (sinar bulan) 1
+    [F_1692] Stiker Awan (sinar bulan) 2
+    [F_2635] Panel Kayu (bintang musim dingin) 1
+    [F_2636] Panel Kayu (bintang musim dingin) 2
+    *[other] -9999
+  }
+
+inventory_util-enchantments-galaxy_soul = Jiwa Galaksi ({$progress_in_percentage}% berubah)
 
 common-unknown = Tidak diketahui
 
