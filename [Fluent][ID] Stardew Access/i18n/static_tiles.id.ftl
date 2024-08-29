@@ -159,10 +159,6 @@ static_tile-elliott_house-piano_key_2 = Kunci Piano 2
 static_tile-elliott_house-piano_key_3 = Kunci Piano 3
 static_tile-elliott_house-piano_key_4 = Kunci Piano 4
 
-# Farm
-
-static_tile-farm-lumber_pile = Tumpukan Kayu
-
 # FarmHouse
 
 static_tile-farmhouse-cellar_door = cellar
@@ -555,7 +551,6 @@ static_tile-town-museum_bridge = Jembatan Museum
 static_tile-town-beach_bridge = Jembatan Pantai
 static_tile-town-smelter = pelebur
 static_tile-town-fountain = Air mancur
-static_tile-town-bookseller = Penjual buku
 
 # Trailer (home of Pam and Penny)
 
