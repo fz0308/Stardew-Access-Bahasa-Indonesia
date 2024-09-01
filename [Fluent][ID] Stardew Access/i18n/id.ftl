@@ -95,8 +95,8 @@ prefix-repair = Perbaiki {$content}
 
 suffix-building_door = Pintu {$content}
 suffix-map_entrance = Jalur masuk {$content}
-suffix-mill_input = Masukan {$content}
-suffix-mill_output = Keluaran {$content}
+suffix-mill_input = Input {$content}
+suffix-mill_output = Output {$content}
 
 # Tiles
 
@@ -210,7 +210,7 @@ dynamic_tile-farm-lumber_pile = Tumpukan Kayu
 ## Interactable Tiles
 
 tile_name-ticket_machine = Mesin tiket
-tile_name-movie_ticket_machine = Mesin Tiket Bioskop
+tile_name-movie_ticket_machine = Mesin Tiket Film
 tile_name-missed_reward_chest = Peti Hadiah yang Terlewatkan
 tile_name-traveling_cart = Kereta pedagang
 tile_name-traveling_cart_pig = Babi pedagang
@@ -219,7 +219,7 @@ tile_name-feeding_bench = Kotak makanan {$is_empty ->
     *[0] {EMPTYSTRING()}
   }
 tile_name-special_quest_board = Papan pesanan khusus
-tile-museum_piece_showcase-suffix = {$content} Pameran
+tile-museum_piece_showcase-suffix = {$content} Showcase
 tile_name-fridge = Kulkas
 tile_name-mail_box = Kotak surat
 tile_name-mail_box-unread_mail_count-prefix = {$mail_count} {$mail_count ->
@@ -296,7 +296,7 @@ item-dropped_item-info = Barang yang dijatuhkan: {$item_count ->
     [1] 1 {$item_name}
     *[other] {$item_count} {$item_name}
   }
-]item-crafting_recipe_info = {$name} {$is_cooking_recipe ->
+item-crafting_recipe_info = {$name} {$is_cooking_recipe ->
     [0] (kerajinan)
     *[1] (memasak)
   } {$description}
@@ -501,16 +501,16 @@ inventory_util-special_items-name = {$item_id ->
     [F_1817] Daun atap (luau) 1
     [F_1818] Daun atap (luau) 2
     [F_1819] Daun atap (luau) 3
-    [F_1820] Daun atap (tarian bunga) 1
-    [F_1821] Daun atap (Tarian bunga) 2
-    [BC_192] Tanaman Musiman (Tarian bunga) 1
-    [BC_204] Tanaman Musiman (Tarian bunga) 2
-    [BC_184] Tanaman Musiman (telur) 1
-    [BC_188] Tanaman Musiman (telur) 2
-    [F_1687] Stiker Awan (sinar bulan) 1
-    [F_1692] Stiker Awan (sinar bulan) 2
-    [F_2635] Panel Kayu (bintang musim dingin) 1
-    [F_2636] Panel Kayu (bintang musim dingin) 2
+    [F_1820] Daun atap (flower dance) 1
+    [F_1821] Daun atap (flower fance) 2
+    [BC_192] Tanaman Musiman (flower dance) 1
+    [BC_204] Tanaman Musiman (flower dance) 2
+    [BC_184] Tanaman Musiman (egg) 1
+    [BC_188] Tanaman Musiman (egg) 2
+    [F_1687] Stiker Awan (moonlight) 1
+    [F_1692] Stiker Awan (moonlight) 2
+    [F_2635] Panel kayu (winter star) 1
+    [F_2636] Panel kayu (winter star) 2
     *[other] -9999
   }
 
