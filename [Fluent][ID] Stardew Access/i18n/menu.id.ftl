@@ -259,7 +259,7 @@ menu-animal_page-animal_info = {$name}, {$type}{$heart_count ->
 
 menu-forge-start_forging_button = Tombol mulai menempa{$forge_cost ->
     [0] {EMPTYSTRING()}
-    *[other] , costs {$forge_cost} Cinder Shard
+    *[other] , membutuhkan {$forge_cost} Serpihan Cinder
   }
 menu-forge-unforge_button = Tombol kembalikan
 menu-forge-weapon_input_slot = {$is_empty ->
