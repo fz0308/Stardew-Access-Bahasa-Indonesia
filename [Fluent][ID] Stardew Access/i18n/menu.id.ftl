@@ -154,7 +154,7 @@ menu-inventory_page-money_info_key = {$farm_name}, {$current_funds}, {$total_ear
     [positive] , Kenari emas: {$golden_walnut_count}
     *[other] {EMPTYSTRING()}
   }{SIGNOFNUMBER($qi_gem_count) ->
-    [positive] , Permata Qi: {$qi_gem_count}
+    [positive] , Batu Permata Qi: {$qi_gem_count}
     *[other] {EMPTYSTRING()}
   }{SIGNOFNUMBER($qi_club_coins) ->
     [positive] , Koin klub Qi: {$qi_club_coins}
@@ -217,8 +217,8 @@ menu-skills_page-player_info = {$name}, {$title}{$golden_walnut_count ->
     *[other] , {$golden_walnut_count} Kenari Emas
   }{$qi_gem_count ->
     [0] {EMPTYSTRING()}
-    [1] , 1 Permata Qi
-    *[other] , {$qi_gem_count} Permata Qi
+    [1] , 1 Batu Permata Qi
+    *[other] , {$qi_gem_count} Batu Permata Qi
   }{$house_upgrade_level ->
     [1] {EMPTYSTRING()}
     [2] , rumah pertanian ditingkatkan ke tingkat kedua
