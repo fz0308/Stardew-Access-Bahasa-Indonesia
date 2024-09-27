@@ -20,4 +20,4 @@ Meskipun Stardew Access Bahasa Indonesia ini memang merubah keluaran Stardew Acc
 
 Terima kasih dan selamat bermain.
 
-<a href="https://www.facebook.com/mahmud.faiz02">FaceBook</a>|<a href="https://www.instagram.com/">InstaGram</a>|<a href="https://www.youtube.com/@mahmudfaizhaifan">YouTube</a>|<a href="https://wa.me/6281316273812">WhatsApp</a>
+<a href="https://www.facebook.com/mahmud.faiz02">FaceBook</a>|<a href="https://www.instagram.com/"mahmudfaiz02>InstaGram</a>|<a href="https://www.youtube.com/@mahmudfaizhaifan">YouTube</a>|<a href="https://wa.me/6281316273812">WhatsApp</a>
