@@ -59,3 +59,4 @@ commands-other-hns_percentage_toggle = Bicara kesehatan dan stamina dalam format
   }
 commands-other-refresh_mod_config = Konfigurasi mod disegarkan!
 commands-other-refresh_screen_reader = Pembaca layar disegarkan!
+commands-other-refresh_user_tiles = Titik pengguna disegarkan!
