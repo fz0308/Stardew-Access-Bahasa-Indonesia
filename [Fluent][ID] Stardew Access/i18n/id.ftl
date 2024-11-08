@@ -243,7 +243,10 @@ tile-busy-prefix = Sibuk {$content}
 tile_name-stepping_stone = Batu melangkah
 tile_name-pathway = Jalan
 tile_name-flooring = Lantai
-tile-volcano_dungeon-pressure_pad = Tombol
+tile-volcano_dungeon-pressure_pad = Tombol {$active ->
+    [0] {EMPTYSTRING()}
+    *[1] Ditekan
+  }
 tile-volcano_dungeon-gate = Gerbang
 tile-forest-giant_tree_sump = Tunggul Pohon Raksasa
 tile-town-bookseller = Penjual buku
