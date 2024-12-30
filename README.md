@@ -8,7 +8,7 @@ Stardew Access bisa didownload <a href="https://www.nexusmods.com/stardewvalley
 
 Cara pasang Stardew Access Bahasa Indonesia
 1. Pastikan Stardew Access dan Mod Bahasa Indonesia sudah terpasang.
-2. Download dan extract Stardew Valley Bahasa Indonesia.
+2. Download dan extract Stardew Access Bahasa Indonesia.
 3. Pindahkan "[Fluent][ID] Stardew Access" ke folder mods di installan Stardew Valley.
 4. Jalankan Stardew Valley, buka Language, tekan Next page,dan tekan Mods language Wisnu Nug Mods Bahasa Indonesia
 5. Selamat bermain menggunakan Bahasa Indonesia, baik dari menu judul sampai kedalam gamenya.
