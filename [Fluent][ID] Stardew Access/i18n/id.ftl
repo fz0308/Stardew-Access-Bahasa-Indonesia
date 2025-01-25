@@ -9,7 +9,7 @@ feature-object_tracker-sort_by_proximity = Urutkan berdasarkan jarak: {$is_enabl
 feature-object_tracker-read_selected_object = {$object_name} {$only_tile ->
     [0] ada di {$direction} berjarak {$distance}
     *[1] {EMPTYSTRING()}
-  } di titik {$object_x}-{$object_y}, pemain ada di titik {$player_x}-{$player_y}
+  } di petak {$object_x}-{$object_y}, pemain ada di titik {$player_x}-{$player_y}
 feature-object_tracker-read_selected_coordinates = Koordinat{$coordinates} {$only_tile ->
     [0] ada di {$direction} berjarak {$distance}
     *[1] {EMPTYSTRING()}
@@ -54,7 +54,7 @@ feature-tile_viewer-empty_tile_name = Kosong
 ## Read Tile
 
 feature-read_tile-manually_triggered_info = {$tile_name}, Kategori: {$tile_category}
-feature-read_tile-no_tile_found = Titik tidak ditemukan di koordinat yang diberikan.
+feature-read_tile-no_tile_found = Petak tidak ditemukan di koordinat yang diberikan.
 feature-read_tile-tile_indexes = Indeks titik:
 
 ## Other
@@ -490,7 +490,7 @@ direction-north_west = Barat laut
 direction-north_east = Timur laut
 direction-south_west = Barat daya
 direction-south_east = Tenggara
-direction-current_tile = Titik saat ini
+direction-current_tile = Petak saat ini
 
 inventory_util-empty_slot = Slot kosong
 inventory_util-locked_slot = Slot Terkunci
