@@ -51,10 +51,10 @@ options_element-input_listener_info = {$label} adalah {$buttons_list}. klik kiri
 
 ### Tile Info Menu
 
-menu-tile_info-mark_tile = Tandai titik ini
+menu-tile_info-mark_tile = Tandai petak ini
 menu-tile_info-select_marking_index = Pilih indeks
-menu-tile_info-add_to_user_tiles_data = Tambahkan titik ini ke data titik pengguna
-menu-tile_info-detailed_tile_info = Ucapkan titik secara terperinci
+menu-tile_info-add_to_user_tiles_data = Tambahkan petak ini ke data petak pengguna
+menu-tile_info-detailed_tile_info = Ucapkan petak secara terperinci
 menu-tile_info-data_exists = Data titik sudah ada. Apakah anda ingin
 menu-tile_info-edit_existing_data = Mengubah datanya?
 menu-tile_info-delete_existing_data = Menghapus datanya?
@@ -62,9 +62,9 @@ menu-tile_info-delete_existing_data = Menghapus datanya?
 ### Tile Data Entry Menu
 
 menu-tile_data_entry-none = Tidak ada
-menu-tile_data_entry-heading_label = Titik {$tile_x}x {$tile_y}y di {$location_name}
-menu-tile_data_entry-tile_name_text_box_label = Nama titik
-menu-tile_data_entry-tile_name_empty = Nama titik tidak boleh kosong atau nol
+menu-tile_data_entry-heading_label = Petak {$tile_x}x {$tile_y}y di {$location_name}
+menu-tile_data_entry-tile_name_text_box_label = Nama petak
+menu-tile_data_entry-tile_name_empty = Nama petak tidak boleh kosong atau nol
 menu-tile_data_entry-categories_drop_down_label = Kategori
 menu-tile_data_entry-mod_dependency_drop_down_label = Memerlukan mod
 menu-tile_data_entry-event_check_box_label = Periksa {$is_festival ->
