@@ -1,6 +1,6 @@
 # Read Tile Commands
 
-commands-read_tile-read_tile_toggle = Membaca titik {$is_enabled ->
+commands-read_tile-read_tile_toggle = Membaca petak {$is_enabled ->
     [0] mati.
     *[1] nyala.
   }
@@ -59,4 +59,4 @@ commands-other-hns_percentage_toggle = Bicara kesehatan dan stamina dalam format
   }
 commands-other-refresh_mod_config = Konfigurasi mod disegarkan!
 commands-other-refresh_screen_reader = Pembaca layar disegarkan!
-commands-other-refresh_user_tiles = Titik pengguna disegarkan!
+commands-other-refresh_user_tiles = Petak pengguna disegarkan!
