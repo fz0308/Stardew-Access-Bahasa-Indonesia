@@ -250,7 +250,7 @@ menu-animal_page-animal_info = {$name}, {$type}{$heart_count ->
     *[other] {EMPTYSTRING()}
   }{$has_received_animal_cracker ->
     [0] {EMPTYSTRING()}
-    *[other], sudah memakan cemilan hewan
+    *[other], sudah memakan biskuit hewan
   }
 
 ## Menus With Inventory
