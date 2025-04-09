@@ -200,11 +200,6 @@ tile-pet_bowl-prefix = {$is_in_use ->
       *[1] kosong
     }
   } {$name}
-dynamic_tile-mastery_cave-pedestal = {$has_hat ->
-    [0] Alas Kosong
-    *[1] Alas dengan Topi
-  }
-dynamic_tile-farm-lumber_pile = Tumpukan Kayu
 
 
 ## Interactable Tiles
@@ -327,7 +322,6 @@ building-golden_parrot = Burung Beo Emas
 
 # NPCs
 
-npc_name-old_mariner = Pelaut Tua
 npc_name-island_trader = Pedagang Pulau
 npc_name-emerald_gem_bird = Burung Permata Zamrud
 npc_name-aquamarine_gem_bird = Burung Permata Aquamarine
@@ -335,7 +329,13 @@ npc_name-ruby_gem_bird = Burung Permata Ruby
 npc_name-amethyst_gem_bird = Burung Permata Kecubung
 npc_name-topaz_gem_bird = Burung Permata Topaz
 npc_name-gem_bird_common = Burung Permata
-npc-farm_animal_info = {$name}, {$is_hungry ->
+npc-farm_animal_info = {$has_produce ->
+    [1] Bisa dipanen
+    *[other] {EMPTYSTRING()}
+  } {$can_be_pet ->
+    [1] Belum dielus
+    *[other] {EMPTYSTRING()}
+  } {$name}, {$is_hungry ->
     [1] Lapar
     *[other] {EMPTYSTRING()}
   } {$is_baby ->
@@ -351,6 +351,10 @@ npc-farm_animal_info = {$name}, {$is_hungry ->
       *[other] {$age} bulan
     }
   }
+npc_name-pet = {$can_be_pet ->
+    [1] Belum dielus
+    *[other] {EMPTYSTRING()}
+  } {$name}
 npc_name-horse_with_no_name = kuda tanpa nama
 monster_name-armored = {$monster_name} lapis baja
 monster_name-big_slime = Slime {$colorful ->
@@ -366,24 +370,6 @@ monster_name-mage = Penyihir {$monster_name}
 monster_name-mutant = {$monster_name} mutan
 monster_name-slime = Slime
 monster_name-truffle_crab = Kepiting Truffle
-
-# Event Tiles
-
-event_tile-egg_festival_shop-name = Toko festival telur
-event_tile-flower_dance_shop-name = Toko Tari Bunga
-event_tile-soup_pot-name = Panci Sup
-event_tile-luau-pierre_booth = Stan Pierre
-event_tile-spirits_eve_shop-name = Toko Malam Roh
-event_tile-stardew_valley_fair_shop-name = Toko Pameran Stardew Valley
-event_tile-slingshot_game-name = Permainan Ketapel
-event_tile-purchase_star_tokens-name = Beli Token Bintang
-event_tile-the_wheel-name = Roda
-event_tile-fishing_challenge-name = Tantangan Memancing
-event_tile-fortune_teller-name = Peramal
-event_tile-grange_display-name = Etalase
-event_tile-strength_game-name = Permainan Kekuatan
-event_tile-free_burgers-name = Burger Gratis
-event_tile-feast_of_the_winter_star_shop-name = Toko pesta Bintang Musim Dingin
 
 patch-trash_bear-wanted_item = {$trash_bear_name} ingin {$item_name}!
 
@@ -468,8 +454,10 @@ object_category-farmers = Petani
 object_category-fishing = Memancing
 object_category-fishponds = Kolam ikan
 object_category-flooring = Lantai
+object_category-forageables = Barang liar
 object_category-furniture = Mebel
 object_category-interactables = Interaksi
+object_category-lights = Cahaya
 object_category-machines = Mesin
 object_category-mine_items = Barang tambang
 object_category-npcs = Orang
