@@ -11,8 +11,12 @@ static_tile-common-bookshelf = Rak buku
 static_tile-common-dark_pool = Kolam Gelap
 static_tile-common-pond = Kolam
 static_tile-common-lake = Danau
+static_tile-common-ocean = Laut
 static_tile-common-river = Sungai
+static_tile-common-small_pool = Kolam kecil
+static_tile-common-swamp = Rawa
 static_tile-common-waterfall = Air terjun
+static_tile-common-driftwood = Kayu terapung
 
 # NPCs
 
@@ -127,6 +131,10 @@ static_tile-blacksmith-anvil = Landasan tempaan
 static_tile-blacksmith-cassette_deck = Dek Kaset
 static_tile-blacksmith-clints_drawer = Nakas Clint
 
+# Boat Tunnel
+
+static_tile-boat_tunnel-docks_edge = Tepi dermaga
+
 # Bus stop
 
 static_tile-bus_stop-ticket_machine = Mesin tiket
@@ -134,6 +142,7 @@ static_tile-bus_stop-ticket_machine = Mesin tiket
 # Caldera
 
 static_tile-caldera-rare_chest = Peti Langka
+static_tile-caldera-edge_of_the_lava_pool = Tepi kolam lava
 static_tile-caldera-forge = Penempaan
 
 # Casino (Qi's club)
@@ -151,6 +160,7 @@ static_tile-desert-three_pillars = Tiga Pilar
 static_tile-desert-three_pillars_center = Pusat Tiga Pilar
 static_tile-desert-desert_warp_statue = Patung teleportasi Gurun
 static_tile-desert-sand_dragon_skull = Tengkorak Naga Pasir
+static_tile-desert-southern_pond_overlook = Kolam jauh selatan
 
 # Elliott House
 
@@ -171,6 +181,7 @@ static_tile-fishshop-tackle_box = Kotak kail
 
 # Forest
 
+static_tile-forest-arrow_head_island_south = Ujung Pulau Panah Selatan
 static_tile-forest-bridge_1 = Jembatan 1
 static_tile-forest-bridge_2 = Jembatan 2
 static_tile-forest-bridge_3 = Jembatan 3
@@ -216,6 +227,11 @@ static_tile-hospital-main_area_door = Area Utama
 static_tile-island_east-banana_shrine = Kuil Pisang
 static_tile-island_east-jungle_parrot_express = Burung beo ekspres Hutan
 
+## Island Farm Cave
+
+static_tile-island_farm_cave-east_pool = Kolam Timur
+static_tile-island_farm_cave-west_pool = Kolam barat
+
 ## Island Field Office
 
 static_tile-island_field_office-counter = Kasir
@@ -224,6 +240,11 @@ static_tile-island_field_office-island_survey = Survei Pulau
 ## Island North
 
 static_tile-island_north-dig_site_parrot_express = Burung beo ekspres situs penggalian
+static_tile-island_north-dig_site_stairs = Tangga Situs Penggalian
+static_tile-island_north-plank_bridge_north = Jembatan papan (Utara)
+static_tile-island_north-plank_bridge_south = Jembatan papan (Selatan)
+static_tile-island_north-river_bend = Cekungan sungai
+static_tile-island_north-rope_bridge = Jembatan tali
 static_tile-island_north-volcano_parrot_express = Burung beo ekspress Volkano
 static_tile-island_north-volcano_entrance_east = Jalur masuk Volkano (Timur)
 static_tile-island_north-volcano_entrance_west = Jalur masukVolkano (Barat)
@@ -242,6 +263,10 @@ static_tile-island_south-ginger_island_warp_statue = Patung teleportasi Pulau Ja
 static_tile-island_south-docks_parrot_express = Burung beo ekspres Pelabuhan
 static_tile-island_south-return_boat = Perahu Kembali
 static_tile-island_south-south_coast = pantai selatan
+
+## Island Southeast
+
+static_tile-island_southeast-starfish_tide_pool = Kolam pasang berbentuk bintang laut
 
 ## Island West
 
@@ -445,6 +470,7 @@ static_tile-qi_nut_room-special_order_board = Papan Pesanan Khusus
 
 static_tile-railroad-empty_box = Kotak kosong
 static_tile-railroad-dumpster = Tempat sampah
+static_tile-railroad-spa_ponnd = Kolam spa
 static_tile-railroad-boulder = Batu besar
 static_tile-railroad-summit_boulder = Batu besar puncak
 static_tile-railroad-water = Air
@@ -587,3 +613,35 @@ static_tile-wizard_house_basement-shrine_of_illusions = Kuil Ilusi
 static_tile-tunnel-safe = Kotak
 static_tile-undergroundmine77377-grim_reaper_statue = Patung Malaikat Maut
 static_tile-woods-old_master_cannoli = Tuan Tua Cannoli
+
+# Festivals
+
+## Spirit's Eve
+
+static_tile-spirits_eve-start_of_maze = Awal labirin
+
+## Festival of Ice
+
+static_tile-festival_of_ice-pool1 = Kolam 1
+static_tile-festival_of_ice-pool2 = Kolam 2
+
+# 3rd party mods
+
+## drbirbdev.BinningSkill
+
+static_tile-binning_skill-trash = Sampah
+static_tile-binning_skill-roadside_trash = Sampah pinggir jalan
+static_tile-binning_skill-beach_trash = Sampah pantai
+static_tile-binning_skill-bus_stop_trash = Sampah halte bus
+static_tile-binning_skill-sandy_house_trash = Sampah rumah Sandy
+static_tile-binning_skill-abandoned_house_trash = Sampah rumah yang ditinggalkan
+static_tile-binning_skill-ranch_trash = Sampah Peternakan
+static_tile-binning_skill-wizards_trash = Sampah Penyihir
+static_tile-binning_skill-field_office_trash = Sampah Kantor Lapangan
+static_tile-binning_skill-adventurers_guild_trash = Sampah Guild petualang
+static_tile-binning_skill-carpenter_shop_trash = Sampah Toko tukang kayu
+static_tile-binning_skill-spa_trash = Sampah spa
+static_tile-binning_skill-summit_path_trash = Sampah Jalur Puncak
+static_tile-binning_skill-cliffside_trash = Sampah tebing
+static_tile-binning_skill-park_trash = Sampah taman
+static_tile-binning_skill-witchs_trash = Sampah Penyihir
