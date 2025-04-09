@@ -1,7 +1,7 @@
 {
   "Name": "[Fluent][ID] Stardew Access",
   "Author": "Mahmud Faiz Haifan",
-  "Version": "1.2.1",
+  "Version": "1.3.0",
   "Description": "Bahasa Indonesia untuk mod Stardew Access",
   "UniqueID": "faiz.fluent.stardewaccess.id",
   "UpdateKeys": [ "Nexus:24788", "GitHub:fz0308/Stardew-Access-Bahasa-Indonesia" ],
