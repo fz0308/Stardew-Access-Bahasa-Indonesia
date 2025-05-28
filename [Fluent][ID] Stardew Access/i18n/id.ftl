@@ -213,7 +213,6 @@ tile_name-feeding_bench = Kotak makanan {$is_empty ->
     [1] kosong
     *[0] {EMPTYSTRING()}
   }
-tile_name-special_quest_board = Papan pesanan khusus
 tile-museum_piece_showcase-suffix = {$content} Showcase
 tile_name-fridge = Kulkas
 tile_name-mail_box = Kotak surat
@@ -245,6 +244,13 @@ tile-volcano_dungeon-pressure_pad = Tombol {$active ->
 tile-volcano_dungeon-gate = Gerbang
 tile-forest-giant_tree_sump = Tunggul Pohon Raksasa
 tile-town-bookseller = Penjual buku
+tile-town-krobus_hiding_bush = Semak aneh
+tile-town-special_orders_board = Papan pesanan khusus
+tile-town-prize_ticket_box = Kotak tiket hadiah{$tickets ->
+    [0] {EMPTYSTRING()}
+    [1] , Dengan 1 tiket hadiah
+    *[any] , dengan {$tickets} tiket hadiah
+  }
 
 ## Entrances
 

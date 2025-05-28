@@ -656,7 +656,8 @@ menu-special_orders_board-accept_button = {$is_left_quest ->
   } misi: {$quest_details}
   Klik kiri untuk menerima misi ini.
 menu-special_orders_board-quest_in_progress = Sedang dikerjakan: {$quest_details}
-menu-special_orders_board-quest_completed = Quest {$name} diselesaikan! Buka jurnal untuk memerima hadiah.
+menu-special_orders_board-quest_completed = Quest {$name} sudah selesai! Buka jurnal untuk memerima hadiah.
+menu-special_orders_board-no_active_quest = Tidak ada misi yang tersedia
 
 ## Title Menus
 
